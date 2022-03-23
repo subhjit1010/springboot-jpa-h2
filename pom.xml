@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>springboot-jpa-h2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-jpa-h2</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -64,6 +63,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-jpa-h2-image</finalName>
 	</build>
 
 </project>

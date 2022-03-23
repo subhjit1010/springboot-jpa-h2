@@ -1,0 +1,9 @@
+
+version: '3.7'
+
+services:
+  springboot-app:
+    image: springboot-jpa-h2-app
+    build: .
+    ports:
+      - '8080:8080'
